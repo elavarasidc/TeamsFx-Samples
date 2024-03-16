@@ -48,7 +48,8 @@
         "messageTeamMembers"
     ],
     "validDomains": [
-        "${{TAB_DOMAIN}}"
+        "${{TAB_DOMAIN}}",
+        "copilotstudio.preview.microsoft.com"
     ],
     "showLoadingIndicator": false
 }

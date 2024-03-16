@@ -52,17 +52,7 @@ class Tab extends React.Component {
 
     return (
       <div>
-        <h1>In-meeting app sample</h1>
-        <h3>Principle Name:</h3>
-        <p>{userPrincipleName}</p>
-        <h3>Meeting ID:</h3>
-        <p>{meetingId}</p>
-        <MediaQuery maxWidth={280}>
-          <h3>This is the side panel</h3>
-          <a href="https://docs.microsoft.com/en-us/microsoftteams/platform/apps-in-teams-meetings/teams-apps-in-meetings">
-            Need more info, open this document in new tab or window.
-          </a>
-        </MediaQuery>
+        <iframe src="yourcopilot-iframe-link"></iframe>
       </div>
     );
   }
